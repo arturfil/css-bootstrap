@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Bootstrap </title>
+
+    <!-- Bootstrap's CSS (put it before yours) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Your CSS (put it after Bootstrap) -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row heading-info">
+
+        <div class="col-sm-6">
+          <h1> Bootstrap </h1>
+        </div>
+
+        <div class="col-sm-6">
+          <nav class="pull-right">
+            <a href="#0"> Home </a>
+            <a href="#0"> About </a>
+            <a href="#0"> ... </a>
+          </nav>
+        </div>
+
+      </div> <!-- close heading-info -->
+    </header>
+
+    <section class="container">
+      <div class="row top-content">
+
+        <div class="col-sm-12">
+          <h2> Boostrap </h2>
+          <p>
+            It's awesome.
+          </p>
+        </div>
+
+      </div>  <!-- close top-content -->
+
+      <footer class="row buttons text-center">
+
+        <div class="col-sm-4">
+          <button class="btn btn-primary"> Primary </button>
+          <button class="btn btn-info"> Info </button>
+        </div>
+
+        <div class="col-sm-4">
+          <a href="#0" class="btn btn-success">
+            Button Link
+          </a>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="btn btn-danger">
+            DIV Button
+          </div>
+        </div>
+
+      </footer>
+    </section>
+
+
+    <!-- jQuery's JavaScript (put it before Bootstrap) -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
+    <!-- Boostrap's JavaScript (put it before yours but after Bootstrap) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Your JavaScript (put it after jQuery & Bootstrap) -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
