@@ -6,3 +6,8 @@ header {
 section {
   border: 5px dashed deeppink;
 }
+
+.glyphicon-flash {
+  color: yellow;
+  font-size: 2em;
+}
